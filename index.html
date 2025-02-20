@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sung Jinwoo - The Shadow Monarch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar with Hamburger Menu -->
+    <nav>
+        <div class="nav-container">
+            <button class="hamburger" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Profile</a></li>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#abilities">Abilities</a></li>
+                <li><a href="#shadow-army">Shadow Army</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#quotes">Quotes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Profile Header -->
+    <section id="home" class="profile-header">
+        <div class="profile-image">
+            <img src="profile.png" alt="Sung Jinwoo Profile Image">
+        </div>
+        <div class="profile-info">
+            <h1>Sung Jinwoo</h1>
+            <p><strong>Rank:</strong> S</p>
+            <p><strong>Title:</strong> Shadow Monarch</p>
+            <p><strong>Status:</strong> Active</p>
+        </div>
+    </section>
+
+    <!-- Biography Section -->
+    <section id="biography">
+        <h2>Biography</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Initial Awakening</h3>
+                <p>Becomes a hunter but is known as the weakest of mankind.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Double Dungeon Incident</h3>
+                <p>Nearly dies but gains the system, beginning his journey to power.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>First Level Up</h3>
+                <p>Starts to grow stronger through the system's quests.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Becoming S-Rank</h3>
+                <p>Officially recognized as an S-rank hunter after numerous feats.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Shadow Monarch</h3>
+                <p>Inherits the powers of the Shadow Monarch, commanding shadows.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats">
+        <h2>Stats</h2>
+        <div class="stats-container">
+            <div class="stat">
+                <span>Strength: 250</span>
+                <progress value="250" max="300"></progress>
+            </div>
+            <div class="stat">
+                <span>Agility: 230</span>
+                <progress value="230" max="300"></progress>
+            </div>
+            <div class="stat">
+                <span>Intelligence: 200</span>
+                <progress value="200" max="300"></progress>
+            </div>
+            <div class="stat">
+                <span>Sense: 180</span>
+                <progress value="180" max="300"></progress>
+            </div>
+            <div class="stat">
+                <span>Vitality: 220</span>
+                <progress value="220" max="300"></progress>
+            </div>
+        </div>
+    </section>
+
+    <!-- Abilities Section -->
+    <section id="abilities">
+        <h2>Abilities</h2>
+        <div class="abilities-container">
+            <div class="ability-card">
+                <img src="shadow-extraction-icon.png" alt="Shadow Extraction Icon">
+                <h3>Shadow Extraction</h3>
+                <p>Turn defeated enemies into loyal shadow soldiers.</p>
+            </div>
+            <div class="ability-card">
+                <img src="shadow-storage-icon.png" alt="Shadow Storage Icon">
+                <h3>Shadow Storage</h3>
+                <p>Store shadows within his own shadow for later use.</p>
+            </div>
+            <div class="ability-card">
+                <img src="monarchs-domain-icon.png" alt="Monarch's Domain Icon">
+                <h3>Monarch's Domain</h3>
+                <p>Strengthen shadows within a designated area.</p>
+            </div>
+            <div class="ability-card">
+                <img src="stealth-icon.png" alt="Stealth Icon">
+                <h3>Stealth</h3>
+                <p>Become invisible to enemies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shadow Army Section -->
+    <section id="shadow-army">
+        <h2>Shadow Army</h2>
+        <div class="shadow-army-container">
+            <div class="shadow-card">
+                <img src="igris.png" alt="Igris">
+                <h3>Igris</h3>
+                <p>A knight shadow, one of Jinwoo's strongest soldiers.</p>
+            </div>
+            <div class="shadow-card">
+                <img src="beru.png" alt="Beru">
+                <h3>Beru</h3>
+                <p>Former ant king, now a powerful shadow commander.</p>
+            </div>
+            <div class="shadow-card">
+                <img src="tank.png" alt="Tank">
+                <h3>Tank</h3>
+                <p>A giant bear shadow, serving as a tank for the army.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="image1.jpg" alt="Sung Jinwoo in battle">
+            <img src="image2.jpg" alt="Sung Jinwoo with shadow army">
+            <img src="image3.jpg" alt="Sung Jinwoo using powers">
+            <img src="image4.jpg" alt="Sung Jinwoo portrait">
+        </div>
+    </section>
+
+    <!-- Quotes Section -->
+    <section id="quotes">
+        <h2>Quotes</h2>
+        <div class="quotes-container">
+            <blockquote>"I will become stronger. Strong enough to protect everyone."</blockquote>
+            <blockquote>"Arise."</blockquote>
+            <blockquote>"I'm not the same as I was before."</blockquote>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Hunter Association | Sung Jinwoo Profile</p>
+    </footer>
+
+    <!-- JavaScript for Smooth Scrolling -->
+    <script>
+        
+        // Smooth Scrolling
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close menu on link click (for mobile)
+                document.querySelector('.nav-links').classList.remove('active');
+                document.querySelector('.hamburger').classList.remove('active');
+            });
+        });
+
+        // Hamburger Menu Toggle
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    
+
+    </script>
+</body>
+</html>
